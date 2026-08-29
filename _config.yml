@@ -1,12 +1,14 @@
 title: Peridot Carbon
-description: Life cycle assessment for ambitious startups.
-url: ""
+description: Independent life cycle assessment for UK and European startups.
+url: "https://peridotcarbon.com"
 baseurl: ""
 lang: en-GB
 timezone: Europe/London
+logo: /Branding/Logo/Low-res%20Screenshots/secondary-on-dark.png
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 sass:
   style: compressed

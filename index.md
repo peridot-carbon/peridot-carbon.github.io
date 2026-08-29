@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Life cycle clarity for growing companies
-description: Peridot Carbon gives ambitious startups a clear view of product impact, sustainability credentials, and next steps.
+title: Life Cycle Assessment (LCA) for Startups
+description: Independent life cycle assessment for UK and European startups. Understand your product's material, energy and emissions impacts with clear, quantified evidence.
 ---
 
 <main>

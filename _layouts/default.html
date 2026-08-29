@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#024653">
     {% seo %}
+    {% assign organization_url = site.url | append: site.baseurl %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": {{ organization_url | append: "/#organization" | jsonify }},
+        "name": {{ site.title | jsonify }},
+        "url": {{ organization_url | append: "/" | jsonify }},
+        "logo": {{ site.logo | absolute_url | jsonify }},
+        "email": "info@peridotcarbon.com",
+        "description": {{ site.description | jsonify }}
+      }
+    </script>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </head>
   <body>
