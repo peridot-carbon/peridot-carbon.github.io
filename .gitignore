@@ -1,0 +1,8 @@
+# Jekyll-generated files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Brand materials pending approval
+Branding/

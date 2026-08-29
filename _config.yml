@@ -1,0 +1,17 @@
+title: Peridot Carbon
+description: Life cycle assessment for ambitious startups.
+url: ""
+baseurl: ""
+lang: en-GB
+timezone: Europe/London
+
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
