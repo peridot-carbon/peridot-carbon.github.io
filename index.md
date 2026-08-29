@@ -11,7 +11,7 @@ description: Independent life cycle assessment for UK and European startups. Und
       <a class="brand" href="#top" aria-label="Peridot Carbon home">
         <img src="{{ '/Branding/Logo/Low-res%20Screenshots/secondary-on-dark.png' | relative_url }}" alt="Peridot Carbon">
       </a>
-      <a class="header-contact" href="mailto:info@peridotcarbon.com">Get in touch <span aria-hidden="true">&rarr;</span></a>
+      <a class="header-contact" href="mailto:info@peridotcarbon.com?subject=Peridot%20Carbon%20enquiry">Get in touch <span aria-hidden="true">&rarr;</span></a>
     </header>
 
     <div class="hero__inner content-shell" id="top">
