@@ -1,7 +1,11 @@
 ---
 layout: default
-title: Life Cycle Assessment (LCA) for Startups
-description: Independent life cycle assessment for UK and European startups. Understand your product's material, energy and emissions impacts with clear, quantified evidence.
+title: Independent Life Cycle Assessment for Startups
+description: Independent life cycle assessment for UK and European startups. Understand your product's materials, energy use and emissions with clear, quantified evidence.
+image: /assets/img/pexels-michael-burrows-7125660.jpg
+image_alt: Product process sketch used to support life cycle assessment
+twitter:
+  card: summary_large_image
 ---
 
 <main>
@@ -9,7 +13,7 @@ description: Independent life cycle assessment for UK and European startups. Und
     <div class="hero__grid" aria-hidden="true"></div>
     <header class="site-header content-shell">
       <a class="brand" href="#top" aria-label="Peridot Carbon home">
-        <img src="{{ '/Branding/Logo/Low-res%20Screenshots/secondary-on-dark.png' | relative_url }}" alt="Peridot Carbon">
+        <span class="brand__logo" aria-hidden="true"></span>
       </a>
       <a class="header-contact" href="mailto:info@peridotcarbon.com?subject=Peridot%20Carbon%20enquiry">Get in touch <span aria-hidden="true">&rarr;</span></a>
     </header>
@@ -20,6 +24,11 @@ description: Independent life cycle assessment for UK and European startups. Und
         <h1 id="hero-title">Understand the impact<br>of what you are building.</h1>
         <p class="hero__lead">We assess the material, energy and emissions impacts of your product across the parts of its life cycle that matter to the question. You get the numbers, the context and the limits of the data, set out clearly.</p>
         <a class="button button--bright" href="mailto:info@peridotcarbon.com?subject=Peridot%20Carbon%20enquiry">Tell us about your product <span aria-hidden="true">&rarr;</span></a>
+        <ul class="hero__signals" aria-label="Assessment focus">
+          <li>Materials</li>
+          <li>Energy</li>
+          <li>Emissions</li>
+        </ul>
       </div>
 
       <div class="impact-diagram reveal" data-impact-diagram aria-label="Interactive illustration of connected carbon and water impact data" role="img">
@@ -38,7 +47,7 @@ description: Independent life cycle assessment for UK and European startups. Und
     </div>
 
     <div class="hero__foot content-shell">
-      <p>Clear numbers. Useful context.</p>
+      <p><span class="hero__mark" aria-hidden="true"></span>Clear numbers. Useful context.</p>
       <a href="#approach" class="scroll-link">Explore <span aria-hidden="true">&darr;</span></a>
     </div>
   </section>
@@ -50,6 +59,10 @@ description: Independent life cycle assessment for UK and European startups. Und
       <h2 id="intro-title">Good sustainability claims start with knowing what is there.</h2>
       <p>Life cycle assessment looks at the full product system, not just the part that is easiest to measure. Its scope should match the question, the data available and the stage your product has reached.</p>
     </div>
+    <figure class="intro__image reveal">
+      <img src="{{ '/assets/img/pexels-michael-burrows-7125660.jpg' | relative_url }}" alt="An early sketch on a wall of a coffee processing and drying process" loading="lazy" decoding="async">
+      <span class="intro__image-mark" aria-hidden="true"></span>
+    </figure>
   </section>
 
   <section class="outcomes" aria-labelledby="outcomes-title">
@@ -86,9 +99,10 @@ description: Independent life cycle assessment for UK and European startups. Und
       <p>We agree the question, what the product needs to do and what is in scope before analysis begins. At an early stage, not everything is known. We use the best available data and state the assumptions and gaps plainly, so you can see what the evidence shows now and where more work may be needed.</p>
       <a class="text-link" href="mailto:info@peridotcarbon.com?subject=Peridot%20Carbon%20enquiry">Start a conversation <span aria-hidden="true">&rarr;</span></a>
     </div>
-    <div class="method__pattern" aria-hidden="true">
-      <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-    </div>
+    <figure class="method__image reveal">
+      <img src="{{ '/assets/img/pexels-cottonbro-7484159.jpg' | relative_url }}" alt="Two people discussing design drawings around a table" loading="lazy" decoding="async">
+      <span class="method__image-mark" aria-hidden="true"></span>
+    </figure>
   </section>
 
   <section class="closing" aria-labelledby="closing-title">
@@ -103,6 +117,9 @@ description: Independent life cycle assessment for UK and European startups. Und
 
 <footer class="site-footer">
   <div class="content-shell site-footer__inner">
+    <a class="site-footer__brand" href="#top" aria-label="Peridot Carbon home">
+      <span class="site-footer__logo" aria-hidden="true"></span>
+    </a>
     <p>&copy; {{ 'now' | date: '%Y' }} Peridot Carbon. All rights reserved.</p>
     <p><a href="{{ '/NOTICE' | relative_url }}">Copyright and asset notice</a></p>
   </div>
