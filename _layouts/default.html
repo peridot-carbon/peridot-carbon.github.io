@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#024653">
+    <meta name="theme-color" content="#02aa86">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
+    <link rel="shortcut icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}">
     {% seo %}
     {% assign organization_url = site.url | append: site.baseurl %}
     <script type="application/ld+json">
@@ -18,6 +23,26 @@
         "description": {{ site.description | jsonify }}
       }
     </script>
+    {% if page.url == '/' %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": {{ organization_url | append: "/#life-cycle-assessment" | jsonify }},
+        "name": "Independent life cycle assessment for startups",
+        "description": "Independent assessment of a product's material, energy and emissions impacts across the relevant parts of its life cycle.",
+        "serviceType": "Life cycle assessment",
+        "provider": {
+          "@id": {{ organization_url | append: "/#organization" | jsonify }}
+        },
+        "areaServed": [
+          { "@type": "Country", "name": "United Kingdom" },
+          { "@type": "Place", "name": "Europe" }
+        ],
+        "url": {{ organization_url | append: "/" | jsonify }}
+      }
+    </script>
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </head>
   <body>
