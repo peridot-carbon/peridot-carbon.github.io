@@ -6,3 +6,6 @@ _site/
 
 # Brand materials pending approval
 Branding/
+
+# secrets etc.
+.env

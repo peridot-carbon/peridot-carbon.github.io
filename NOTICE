@@ -4,8 +4,8 @@ Peridot Carbon Website Notice
 Copyright (c) 2026 Peridot Carbon. All rights reserved.
 
 Unless a separate written agreement states otherwise, the Peridot Carbon name,
-logos, brand marks, visual identity, website copy, illustrations, photographs,
-and other brand assets in this repository and on the published website are
+logos, brand marks, visual identity, website copy, illustrations and other
+original brand assets in this repository and on the published website are
 proprietary. They may not be copied, adapted, distributed, used to imply
 endorsement, or used in connection with other products or services without
 prior written permission from Peridot Carbon.
@@ -14,3 +14,39 @@ The presence of these materials in a public GitHub repository or on a public
 website does not grant permission to reuse them.
 
 Contact: info@peridotcarbon.com
+
+Third-Party Images in This Repository
+-------------------------------------
+
+The following images are stored locally in `assets/img/`. They are sourced
+from Pexels and are subject to the
+[Pexels License](https://www.pexels.com/license/):
+
+- `assets/img/pexels-michael-burrows-7125660.jpg`
+	Source: https://www.pexels.com/photo/7125660/
+	Used for the social preview and introductory section.
+- `assets/img/pexels-cottonbro-7484159.jpg`
+	Source: https://www.pexels.com/photo/7484159/
+	Used for the methodology section.
+- `assets/img/pexels-fauxels-3184293.jpg`
+	Source: https://www.pexels.com/photo/3184293/
+	Currently stored for possible future use; not published by the website.
+- `assets/img/pexels-keeganjchecks-36423811.jpg`
+	Source: https://www.pexels.com/photo/36423811/
+	Currently stored for possible future use; not published by the website.
+- `assets/img/pexels-shvetsa-5324858.jpg`
+	Source: https://www.pexels.com/photo/5324858/
+	Currently stored for possible future use; not published by the website.
+- `assets/img/pexels-thisisengineering-19895784.jpg`
+	Source: https://www.pexels.com/photo/19895784/
+	Currently stored for possible future use; not published by the website.
+
+The Pexels License permits free use and modification for website and marketing
+purposes. Attribution is not required, though it is appreciated. The Pexels
+License prohibits, among other things, implying endorsement by identifiable
+people or brands, selling unaltered copies, redistributing assets on stock or
+wallpaper platforms, and using assets as trademarks or brand marks.
+
+These Pexels assets are not proprietary to Peridot Carbon. Refer to the Pexels
+License for the current, controlling terms before any reuse outside this
+website.
