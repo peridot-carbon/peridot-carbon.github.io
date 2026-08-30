@@ -7,9 +7,13 @@ Jekyll site.
 
 1. Push this repository to GitHub.
 2. In **Settings > Pages**, set the source to **Deploy from a branch**.
-3. Select the `main` branch and the repository root (`/`).
+3. Select the `master` branch and the repository root (`/`).
 4. GitHub Pages will build and publish the site using its supported Jekyll
    environment.
+
+Commit the Jekyll source, not the generated `_site/` folder. `_site/` is
+ignored because GitHub Pages builds the published static site from the source
+branch after each push.
 
 ### Connect `peridotcarbon.com`
 
