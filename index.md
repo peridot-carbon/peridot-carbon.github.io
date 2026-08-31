@@ -120,7 +120,11 @@ twitter:
     <a class="site-footer__brand" href="#top" aria-label="Peridot Carbon home">
       <span class="site-footer__logo" aria-hidden="true"></span>
     </a>
-    <p>&copy; {{ 'now' | date: '%Y' }} Peridot Carbon. All rights reserved.</p>
+    <p>&copy; {{ 'now' | date: '%Y' }} Peridot Carbon Ltd. All rights reserved.</p>
     <p><a href="{{ '/NOTICE' | relative_url }}">Copyright and asset notice</a></p>
+    <div class="site-footer__company-details">
+      <p><b>Peridot Carbon Ltd. </b><br>Registered in England and Wales. Company number <b>16309944</b>.</p>
+      <address><b>Registered office </b><br>2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE.</address>
+    </div>
   </div>
 </footer>
