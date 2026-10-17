@@ -1,0 +1,7 @@
+{
+  "name": "peridot-carbon-github-io",
+  "compatibility_date": "2026-10-17",
+  "assets": {
+    "directory": "./_site"
+  }
+}
